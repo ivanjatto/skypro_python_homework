@@ -1,8 +1,8 @@
-from selenium.webdriver.common.by import By	
-from selenium.webdriver.support.ui import WebDriverWait	
-from selenium.webdriver.support import expected_conditions as EC
-from Lesson7.constants import Test_form_URL
-from Lesson7.step2.step2_data import *
+from selenium.webdriver.common.by import By	 # type: ignore
+from selenium.webdriver.support.ui import WebDriverWait	 # type: ignore
+from selenium.webdriver.support import expected_conditions as EC # type: ignore
+from lesson7.constants import Test_form_URL
+from lesson7.step2.step2_data import *
 
 
 class MainPage:

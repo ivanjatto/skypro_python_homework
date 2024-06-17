@@ -1,5 +1,5 @@
-from Lesson7.step2.pages.FormMainPage import MainPage
-from Lesson7.conftest import *
+from lesson7.step2.pages.FormMainPage import MainPage
+from lesson7.conftest import *
 
 def test_submit_form(chrome_browser):
     main_page = MainPage(chrome_browser)

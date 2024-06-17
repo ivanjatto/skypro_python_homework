@@ -2,7 +2,7 @@ import time
 from selenium.webdriver.common.by import By	 # type: ignore
 from selenium.webdriver.support.ui import WebDriverWait	 # type: ignore
 from selenium.webdriver.support import expected_conditions as EC # type: ignore
-from Lesson7.constants import Calculator_URL # type: ignore
+from lesson7.constants import Calculator_URL # type: ignore
 
 class CalcMain:
     def __init__(self, browser):

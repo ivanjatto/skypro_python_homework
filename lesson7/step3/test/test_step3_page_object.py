@@ -1,4 +1,4 @@
-from Lesson7.step3.pages.CalcMainPage import CalcMain # type: ignore
+from lesson7.step3.pages.CalcMainPage import CalcMain # type: ignore
 
 
 def test_slow_calculator_assert(chrome_browser):
